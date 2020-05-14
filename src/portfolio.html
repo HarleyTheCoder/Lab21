@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+	  <link href="style.css" rel="stylesheet"/>
+	<title>Harley's Portfolio</title>
+</head>
+
+<body>
+	<div class="whole"></div>
+	<div class="heading" id="myHeading">
+		<div class = "top">
+			<h1>My Portfolio</h1>
+		</div>
+
+		<div class="top_navigation">
+			<table>
+				<th><a href="index.html">Home</a></th>
+				<th><a href="about.html">About Me</a></th>
+				<th><a href="portfolio.html">Portfolio</a></th>
+  			</table>
+	  	</div>
+	</div>
+
+	<div class="content">
+		<p class="description">
+			"This is my portfolio page where I will keep projects that I am proud about. I may
+			also include some artwork. I have quite a few Java projects uploaded to GitHub.com
+			 by now. Feel free to check them out!"
+		</p>
+
+	
+	  
+
+	<div class="bottom_navigation">
+		  <table>
+			  <th><a class="bottom" href="index.html">Home</a></th>
+			  <th><a class="bottom" href="about.html">About Me</a></th>
+			  <th><a class="bottom" href="portfolio.html">Portfolio</a></th>
+  	  </table>
+	  </div>
+	  </div>
+
+	  <!-- For the header to be fixed -->
+	<script> 
+    window.onscroll = function() {myFunction()};
+
+    var heading = document.getElementById("myHeading");
+    var sticky = heading.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+
+</html>

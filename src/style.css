@@ -1,0 +1,66 @@
+h1 {
+   color: white;
+   margin: auto;
+}
+
+a {
+    color: #D8CEF6;
+    text-align: center;
+}
+
+.bottom {
+    color: midnightblue;
+}
+
+.whole {
+    background-color: #D8CEF6;
+    border: 5px #D8CEF6;
+    
+}
+
+body {
+    background-color: #4B088A;
+    border: 5px #D8CEF6;
+}
+
+#myHeading {
+    background-color: #4B088A;
+    text-align: center;
+    margin: auto;
+}
+
+head {
+    background-color: #4B088A;
+}
+
+.top_navigation {
+    text-align: center;
+    margin: auto;
+}
+
+.bottom_navigation {
+    font-size: 80%;
+    color: midnightblue;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+}
+
+.content {
+    background-color: #CEF6F5;
+    color: #0B0B61;
+    border: 5px #D8CEF6;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}

@@ -1,0 +1,58 @@
+
+<html>
+
+
+ <head>
+  <link href="style.css" rel="stylesheet"/>
+  <title>Welcome to my page!</title>
+ </head>
+ <body>
+   <div class="whole">
+    <div class="heading" id="myHeading">
+		<div class = "top">
+			<h1>Welcome!</h1>
+		</div>
+
+		<div>
+			<table class="top_navigation">
+				<th><a href="index.html">Home</a></th>
+				<th><a href="about.html">About Me</a></th>
+				<th><a href="portfolio.html">Portfolio</a></th>
+  			</table>
+	  	</div>
+	</div>
+
+    <div class="content">
+
+
+   
+    
+
+  <div class="bottom_navigation">
+		  <table>
+			  <th><a class="bottom" href="index.html">Home</a></th>
+			  <th><a class="bottom" href="about.html">About Me</a></th>
+			  <th><a class="bottom" href="portfolio.html">Portfolio</a></th>
+  	  </table>
+  </div>
+
+   </div>
+
+<!-- For the header to be fixed -->
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var heading = document.getElementById("myHeading");
+    var sticky = heading.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+  </div>
+ </body>
+</html>
